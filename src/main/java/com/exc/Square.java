@@ -11,6 +11,9 @@ public class Square {
 
     public Square(){
         square = new ArrayList<Tile>(SIZE * SIZE);
+        for(int i=0; i < SIZE*SIZE ; i++){
+            square.add(Tile.RandomTile());
+        }
     }
 
 
